@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo Web App</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style/todoStyle.css">
+</head>
+<body class="bg-light">
+  <div class="todo-container container p-5 mt-5 rounded-2 d-flex justify-content-center">
+    <div class="card shadow todo-card w-100">
+      <div class="card-body">
+          <h2 class="text-center mb-3">To Do List</h2>
+        <div class="input-group mb-3">
+          <input type="text" id="todoInput" class="form-control" placeholder="Create Task">
+          <button type="button" class="btn btn-primary" id="addBtn">Add</button>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between"><h3 class="text-center mb-0">Task List</h3><button class="btn btn-danger rounded-1" id="clearBtn">Clear All</button></div>
+        <ul id="todoList" class="list-group text-capitalize"></ul>
+        <h3 class="text-center my-3">Task Summary</h3>
+        <p>Total task : <span id="totalCount">0</span></p>
+        <p>Completed : <span id="completedTask">0</span></p>   
+        <p>Uncompleted : <span id="uncompletedTask">0</span></p>
+        <p class="text-danger">Deleted Task : <span id="deletedTask">0</span></p>   
+      </div>
+    </div>
+  </div>
+  <!-- <script src="script_file/basic.js"></script> -->
+  <!-- <script src="script_file/array.js"></script> -->
+  <script src="script_file/completeTodo.js"></script>
+</body>
+</body>
+</html>

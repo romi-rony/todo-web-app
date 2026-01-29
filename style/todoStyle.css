@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
+
+:root{
+  --red:red;
+  --white:#fff;
+  --grey:#262626;
+  --black:#000;
+  --offWhite: #ddcdcd;
+  --blue: #1976d2;
+  --lightBlue: #7ecbee;
+  --orange: #e2800f;
+  --pink: #d540ab;
+  --wheat: #f5deb3; 
+  --lightGrey: #f4f4f4;
+  --poppins: 'Poppins', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+}
+
+.todo-check {
+  cursor: pointer;
+}
